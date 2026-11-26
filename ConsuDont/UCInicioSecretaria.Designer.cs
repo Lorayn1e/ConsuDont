@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.HoraFecha = new System.Windows.Forms.Timer(this.components);
-            this.lblHora = new System.Windows.Forms.Label();
-            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // HoraFecha
@@ -40,40 +40,41 @@
             this.HoraFecha.Interval = 500;
             this.HoraFecha.Tick += new System.EventHandler(this.HoraFecha_Tick);
             // 
-            // lblHora
+            // lblTitulo
             // 
-            this.lblHora.AutoSize = true;
-            this.lblHora.Location = new System.Drawing.Point(859, 90);
-            this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(51, 20);
-            this.lblHora.TabIndex = 0;
-            this.lblHora.Text = "label1";
-            // 
-            // lblFecha
-            // 
-            this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(829, 110);
-            this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(51, 20);
-            this.lblFecha.TabIndex = 1;
-            this.lblFecha.Text = "label2";
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(21, 88);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(320, 34);
+            this.lblTitulo.TabIndex = 3;
+            this.lblTitulo.Text = "Bienvenid@, Secretario";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(390, 345);
+            this.label1.Location = new System.Drawing.Point(760, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "HOLA";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(875, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "label1";
             // 
             // UCInicioSecretaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblFecha);
-            this.Controls.Add(this.lblHora);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblTitulo);
             this.Name = "UCInicioSecretaria";
             this.Size = new System.Drawing.Size(1019, 844);
             this.ResumeLayout(false);
@@ -84,8 +85,8 @@
         #endregion
 
         private System.Windows.Forms.Timer HoraFecha;
-        private System.Windows.Forms.Label lblHora;
-        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

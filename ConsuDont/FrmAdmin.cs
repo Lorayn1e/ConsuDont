@@ -43,17 +43,6 @@ namespace ConsuDont
         {
             CargarSeccion(new UCCitas());
         }
-
-        private void btnOdontólogos_Click(object sender, EventArgs e)
-        {
-            CargarSeccion(new UCOdontologos());
-        }
-
-        private void btnServicios_Click(object sender, EventArgs e)
-        {
-            CargarSeccion(new UCServicios());
-        }
-
         private void btnHorarios_Click(object sender, EventArgs e)
         {
             CargarSeccion(new UCHorarios());
@@ -69,5 +58,18 @@ namespace ConsuDont
             CargarSeccion(new UCInicioAdmin());
 
         }
+
+        private void btnOdontólogos_Click(object sender, EventArgs e)
+        {
+            CargarSeccion(new UCOdontologos());
+
+        }
+
+        private void btnServicios_Click(object sender, EventArgs e)
+        {
+            CargarSeccion(new UCServicios());
+
+        }
     }
 }
+//lol

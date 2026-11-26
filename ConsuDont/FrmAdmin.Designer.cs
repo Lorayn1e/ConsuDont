@@ -30,15 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdmin));
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.btnSesión = new System.Windows.Forms.Button();
-            this.btnReportes = new System.Windows.Forms.Button();
-            this.btnServicios = new System.Windows.Forms.Button();
-            this.btnHorarios = new System.Windows.Forms.Button();
-            this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnInicio = new System.Windows.Forms.Button();
-            this.btnOdontólogos = new System.Windows.Forms.Button();
-            this.btnPacientes = new System.Windows.Forms.Button();
-            this.pnlContenido = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,7 +38,16 @@
             this.pcbOdontólogos = new System.Windows.Forms.PictureBox();
             this.pcbPacientes = new System.Windows.Forms.PictureBox();
             this.picbInicio = new System.Windows.Forms.PictureBox();
+            this.btnSesión = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
+            this.btnServicios = new System.Windows.Forms.Button();
+            this.btnHorarios = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.pcbLogo = new System.Windows.Forms.PictureBox();
+            this.btnOdontólogos = new System.Windows.Forms.Button();
+            this.btnPacientes = new System.Windows.Forms.Button();
+            this.pnlContenido = new System.Windows.Forms.Panel();
             this.pnlMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,6 +85,86 @@
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(259, 844);
             this.pnlMenu.TabIndex = 0;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ConsuDont.Properties.Resources.Usuarios;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 274);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(49, 43);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ConsuDont.Properties.Resources.reportes;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 681);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(49, 43);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ConsuDont.Properties.Resources.logout_exit;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 789);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(39, 43);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pcbHorarios
+            // 
+            this.pcbHorarios.Image = global::ConsuDont.Properties.Resources.horario;
+            this.pcbHorarios.Location = new System.Drawing.Point(12, 601);
+            this.pcbHorarios.Name = "pcbHorarios";
+            this.pcbHorarios.Size = new System.Drawing.Size(49, 43);
+            this.pcbHorarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbHorarios.TabIndex = 14;
+            this.pcbHorarios.TabStop = false;
+            // 
+            // pcbServicios
+            // 
+            this.pcbServicios.Image = global::ConsuDont.Properties.Resources.Servicios;
+            this.pcbServicios.Location = new System.Drawing.Point(12, 518);
+            this.pcbServicios.Name = "pcbServicios";
+            this.pcbServicios.Size = new System.Drawing.Size(49, 43);
+            this.pcbServicios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbServicios.TabIndex = 13;
+            this.pcbServicios.TabStop = false;
+            // 
+            // pcbOdontólogos
+            // 
+            this.pcbOdontólogos.Image = global::ConsuDont.Properties.Resources.Odontólogos;
+            this.pcbOdontólogos.Location = new System.Drawing.Point(12, 435);
+            this.pcbOdontólogos.Name = "pcbOdontólogos";
+            this.pcbOdontólogos.Size = new System.Drawing.Size(49, 43);
+            this.pcbOdontólogos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbOdontólogos.TabIndex = 12;
+            this.pcbOdontólogos.TabStop = false;
+            // 
+            // pcbPacientes
+            // 
+            this.pcbPacientes.Image = global::ConsuDont.Properties.Resources.Pacientes;
+            this.pcbPacientes.Location = new System.Drawing.Point(12, 354);
+            this.pcbPacientes.Name = "pcbPacientes";
+            this.pcbPacientes.Size = new System.Drawing.Size(49, 43);
+            this.pcbPacientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbPacientes.TabIndex = 11;
+            this.pcbPacientes.TabStop = false;
+            // 
+            // picbInicio
+            // 
+            this.picbInicio.Image = global::ConsuDont.Properties.Resources.Inicio;
+            this.picbInicio.Location = new System.Drawing.Point(12, 189);
+            this.picbInicio.Name = "picbInicio";
+            this.picbInicio.Size = new System.Drawing.Size(49, 43);
+            this.picbInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picbInicio.TabIndex = 10;
+            this.picbInicio.TabStop = false;
             // 
             // btnSesión
             // 
@@ -168,6 +248,16 @@
             this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
+            // pcbLogo
+            // 
+            this.pcbLogo.Image = global::ConsuDont.Properties.Resources.logo2;
+            this.pcbLogo.Location = new System.Drawing.Point(-15, -23);
+            this.pcbLogo.Name = "pcbLogo";
+            this.pcbLogo.Size = new System.Drawing.Size(274, 183);
+            this.pcbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbLogo.TabIndex = 0;
+            this.pcbLogo.TabStop = false;
+            // 
             // btnOdontólogos
             // 
             this.btnOdontólogos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(10)))), ((int)(((byte)(61)))));
@@ -203,96 +293,6 @@
             this.pnlContenido.Name = "pnlContenido";
             this.pnlContenido.Size = new System.Drawing.Size(1019, 844);
             this.pnlContenido.TabIndex = 1;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ConsuDont.Properties.Resources.Usuarios;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 274);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 43);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ConsuDont.Properties.Resources.reportes;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 681);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(49, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ConsuDont.Properties.Resources.logout_exit;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 789);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(39, 43);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pcbHorarios
-            // 
-            this.pcbHorarios.Image = global::ConsuDont.Properties.Resources.horario;
-            this.pcbHorarios.Location = new System.Drawing.Point(12, 601);
-            this.pcbHorarios.Name = "pcbHorarios";
-            this.pcbHorarios.Size = new System.Drawing.Size(49, 43);
-            this.pcbHorarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbHorarios.TabIndex = 14;
-            this.pcbHorarios.TabStop = false;
-            // 
-            // pcbServicios
-            // 
-            this.pcbServicios.Image = global::ConsuDont.Properties.Resources.Servicios;
-            this.pcbServicios.Location = new System.Drawing.Point(12, 518);
-            this.pcbServicios.Name = "pcbServicios";
-            this.pcbServicios.Size = new System.Drawing.Size(49, 43);
-            this.pcbServicios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbServicios.TabIndex = 13;
-            this.pcbServicios.TabStop = false;
-            // 
-            // pcbOdontólogos
-            // 
-            this.pcbOdontólogos.Image = global::ConsuDont.Properties.Resources.Odontólogos;
-            this.pcbOdontólogos.Location = new System.Drawing.Point(12, 435);
-            this.pcbOdontólogos.Name = "pcbOdontólogos";
-            this.pcbOdontólogos.Size = new System.Drawing.Size(49, 43);
-            this.pcbOdontólogos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbOdontólogos.TabIndex = 12;
-            this.pcbOdontólogos.TabStop = false;
-            // 
-            // pcbPacientes
-            // 
-            this.pcbPacientes.Image = global::ConsuDont.Properties.Resources.Pacientes;
-            this.pcbPacientes.Location = new System.Drawing.Point(12, 354);
-            this.pcbPacientes.Name = "pcbPacientes";
-            this.pcbPacientes.Size = new System.Drawing.Size(49, 43);
-            this.pcbPacientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbPacientes.TabIndex = 11;
-            this.pcbPacientes.TabStop = false;
-            // 
-            // picbInicio
-            // 
-            this.picbInicio.Image = global::ConsuDont.Properties.Resources.Inicio;
-            this.picbInicio.Location = new System.Drawing.Point(12, 189);
-            this.picbInicio.Name = "picbInicio";
-            this.picbInicio.Size = new System.Drawing.Size(49, 43);
-            this.picbInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picbInicio.TabIndex = 10;
-            this.picbInicio.TabStop = false;
-            // 
-            // pcbLogo
-            // 
-            this.pcbLogo.Image = global::ConsuDont.Properties.Resources.logo2;
-            this.pcbLogo.Location = new System.Drawing.Point(-15, -23);
-            this.pcbLogo.Name = "pcbLogo";
-            this.pcbLogo.Size = new System.Drawing.Size(274, 183);
-            this.pcbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbLogo.TabIndex = 0;
-            this.pcbLogo.TabStop = false;
             // 
             // FrmAdmin
             // 

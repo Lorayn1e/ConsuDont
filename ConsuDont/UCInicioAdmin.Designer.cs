@@ -32,6 +32,7 @@
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblHora = new System.Windows.Forms.Label();
             this.HoraFecha = new System.Windows.Forms.Timer(this.components);
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblFecha
@@ -58,10 +59,21 @@
             this.HoraFecha.Interval = 500;
             this.HoraFecha.Tick += new System.EventHandler(this.HoraFecha_Tick);
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(21, 88);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(276, 34);
+            this.lblTitulo.TabIndex = 4;
+            this.lblTitulo.Text = "Bienvenid@, Admin";
+            // 
             // UCInicioAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblHora);
             this.Name = "UCInicioAdmin";
@@ -76,5 +88,6 @@
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lblHora;
         private System.Windows.Forms.Timer HoraFecha;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }

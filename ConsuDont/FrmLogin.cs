@@ -176,7 +176,7 @@ namespace ConsuDont
 
                     using (SqlCommand contar = new SqlCommand("SELECT COUNT(*) FROM Usuarios", conn))
                     {
-                        if ((int)contar.ExecuteScalar() > 0) return;   // ya hay usuarios, no hace nada
+                        if ((int)contar.ExecuteScalar() > 0) return;
                     }
 
                     InsertarUsuario(conn, "Admin", "Sistema", "admin@consudont.com", "Admin123!", 1);

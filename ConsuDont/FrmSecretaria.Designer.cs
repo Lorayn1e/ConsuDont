@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSecretaria));
             this.pnlContenido = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblTitulo = new System.Windows.Forms.Label();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pcbHorarios = new System.Windows.Forms.PictureBox();
@@ -58,7 +57,6 @@
             // 
             this.pnlContenido.BackColor = System.Drawing.Color.White;
             this.pnlContenido.Controls.Add(this.label2);
-            this.pnlContenido.Controls.Add(this.lblTitulo);
             this.pnlContenido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenido.Location = new System.Drawing.Point(259, 0);
             this.pnlContenido.Name = "pnlContenido";
@@ -74,16 +72,6 @@
             this.label2.Size = new System.Drawing.Size(215, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Usuario conectado: Secretario";
-            // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(21, 88);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(320, 34);
-            this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Bienvenid@, Secretario";
             // 
             // pnlMenu
             // 
@@ -270,7 +258,6 @@
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.PictureBox pcbLogo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.PictureBox picbInicio;
         private System.Windows.Forms.PictureBox pcbHorarios;
         private System.Windows.Forms.PictureBox pcbCitas;

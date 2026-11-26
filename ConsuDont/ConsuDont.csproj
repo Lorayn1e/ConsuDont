@@ -212,6 +212,12 @@
     <Compile Include="UCInicioSecretaria.Designer.cs">
       <DependentUpon>UCInicioSecretaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCOdontologos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCOdontologos.Designer.cs">
+      <DependentUpon>UCOdontologos.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCPacientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -223,6 +229,12 @@
     </Compile>
     <Compile Include="UCReportes.Designer.cs">
       <DependentUpon>UCReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCServicios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCServicios.Designer.cs">
+      <DependentUpon>UCServicios.cs</DependentUpon>
     </Compile>
     <Compile Include="UCUsuarios.cs">
       <SubType>UserControl</SubType>
@@ -260,6 +272,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCInicioSecretaria.resx">
       <DependentUpon>UCInicioSecretaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCOdontologos.resx">
+      <DependentUpon>UCOdontologos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCServicios.resx">
+      <DependentUpon>UCServicios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

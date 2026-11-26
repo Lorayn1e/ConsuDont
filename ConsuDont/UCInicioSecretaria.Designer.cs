@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.HoraFecha = new System.Windows.Forms.Timer(this.components);
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblHora = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // HoraFecha
@@ -50,30 +50,30 @@
             this.lblTitulo.TabIndex = 3;
             this.lblTitulo.Text = "Bienvenid@, Secretario";
             // 
-            // label1
+            // lblFecha
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(760, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label2";
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(760, 20);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(51, 20);
+            this.lblFecha.TabIndex = 5;
+            this.lblFecha.Text = "label2";
             // 
-            // label2
+            // lblHora
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(875, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "label1";
+            this.lblHora.AutoSize = true;
+            this.lblHora.Location = new System.Drawing.Point(875, 0);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(51, 20);
+            this.lblHora.TabIndex = 4;
+            this.lblHora.Text = "label1";
             // 
             // UCInicioSecretaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblFecha);
+            this.Controls.Add(this.lblHora);
             this.Controls.Add(this.lblTitulo);
             this.Name = "UCInicioSecretaria";
             this.Size = new System.Drawing.Size(1019, 844);
@@ -86,7 +86,7 @@
 
         private System.Windows.Forms.Timer HoraFecha;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Label lblHora;
     }
 }

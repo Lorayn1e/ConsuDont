@@ -19,7 +19,7 @@ namespace ConsuDont
 
         private void HoraFecha_Tick(object sender, EventArgs e)
         {
-            lblHora.Text = DateTime.Now.ToLongTimeString();
+            lblFecha.Text = DateTime.Now.ToLongTimeString();
             lblFecha.Text = DateTime.Now.ToLongDateString();
         }
     }

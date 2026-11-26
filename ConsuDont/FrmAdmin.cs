@@ -64,12 +64,5 @@ namespace ConsuDont
             CargarSeccion(new UCOdontologos());
 
         }
-
-        private void btnServicios_Click(object sender, EventArgs e)
-        {
-            CargarSeccion(new UCServicios());
-
-        }
     }
 }
-//lol

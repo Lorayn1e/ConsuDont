@@ -34,13 +34,11 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pcbHorarios = new System.Windows.Forms.PictureBox();
-            this.pcbServicios = new System.Windows.Forms.PictureBox();
             this.pcbOdontólogos = new System.Windows.Forms.PictureBox();
             this.pcbPacientes = new System.Windows.Forms.PictureBox();
             this.picbInicio = new System.Windows.Forms.PictureBox();
             this.btnSesión = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
-            this.btnServicios = new System.Windows.Forms.Button();
             this.btnHorarios = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
@@ -53,7 +51,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbHorarios)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbServicios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbOdontólogos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbPacientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbInicio)).BeginInit();
@@ -67,13 +64,11 @@
             this.pnlMenu.Controls.Add(this.pictureBox2);
             this.pnlMenu.Controls.Add(this.pictureBox1);
             this.pnlMenu.Controls.Add(this.pcbHorarios);
-            this.pnlMenu.Controls.Add(this.pcbServicios);
             this.pnlMenu.Controls.Add(this.pcbOdontólogos);
             this.pnlMenu.Controls.Add(this.pcbPacientes);
             this.pnlMenu.Controls.Add(this.picbInicio);
             this.pnlMenu.Controls.Add(this.btnSesión);
             this.pnlMenu.Controls.Add(this.btnReportes);
-            this.pnlMenu.Controls.Add(this.btnServicios);
             this.pnlMenu.Controls.Add(this.btnHorarios);
             this.pnlMenu.Controls.Add(this.btnUsuarios);
             this.pnlMenu.Controls.Add(this.btnInicio);
@@ -99,7 +94,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ConsuDont.Properties.Resources.reportes;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 681);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 614);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -119,22 +114,12 @@
             // pcbHorarios
             // 
             this.pcbHorarios.Image = global::ConsuDont.Properties.Resources.horario;
-            this.pcbHorarios.Location = new System.Drawing.Point(12, 601);
+            this.pcbHorarios.Location = new System.Drawing.Point(12, 534);
             this.pcbHorarios.Name = "pcbHorarios";
             this.pcbHorarios.Size = new System.Drawing.Size(49, 43);
             this.pcbHorarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbHorarios.TabIndex = 14;
             this.pcbHorarios.TabStop = false;
-            // 
-            // pcbServicios
-            // 
-            this.pcbServicios.Image = global::ConsuDont.Properties.Resources.Servicios;
-            this.pcbServicios.Location = new System.Drawing.Point(12, 518);
-            this.pcbServicios.Name = "pcbServicios";
-            this.pcbServicios.Size = new System.Drawing.Size(49, 43);
-            this.pcbServicios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbServicios.TabIndex = 13;
-            this.pcbServicios.TabStop = false;
             // 
             // pcbOdontólogos
             // 
@@ -185,7 +170,7 @@
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReportes.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.ForeColor = System.Drawing.Color.White;
-            this.btnReportes.Location = new System.Drawing.Point(6, 671);
+            this.btnReportes.Location = new System.Drawing.Point(6, 583);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(247, 64);
             this.btnReportes.TabIndex = 7;
@@ -193,27 +178,13 @@
             this.btnReportes.UseVisualStyleBackColor = false;
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
-            // btnServicios
-            // 
-            this.btnServicios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(10)))), ((int)(((byte)(61)))));
-            this.btnServicios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnServicios.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnServicios.ForeColor = System.Drawing.Color.White;
-            this.btnServicios.Location = new System.Drawing.Point(6, 507);
-            this.btnServicios.Name = "btnServicios";
-            this.btnServicios.Size = new System.Drawing.Size(247, 64);
-            this.btnServicios.TabIndex = 6;
-            this.btnServicios.Text = "Servicios";
-            this.btnServicios.UseVisualStyleBackColor = false;
-            this.btnServicios.Click += new System.EventHandler(this.btnServicios_Click);
-            // 
             // btnHorarios
             // 
             this.btnHorarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(10)))), ((int)(((byte)(61)))));
             this.btnHorarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHorarios.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHorarios.ForeColor = System.Drawing.Color.White;
-            this.btnHorarios.Location = new System.Drawing.Point(6, 589);
+            this.btnHorarios.Location = new System.Drawing.Point(6, 501);
             this.btnHorarios.Name = "btnHorarios";
             this.btnHorarios.Size = new System.Drawing.Size(247, 64);
             this.btnHorarios.TabIndex = 5;
@@ -313,7 +284,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbHorarios)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbServicios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbOdontólogos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbPacientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbInicio)).EndInit();
@@ -329,7 +299,6 @@
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.PictureBox pcbLogo;
         private System.Windows.Forms.Button btnPacientes;
-        private System.Windows.Forms.Button btnServicios;
         private System.Windows.Forms.Button btnHorarios;
         private System.Windows.Forms.Button btnOdontólogos;
         private System.Windows.Forms.Button btnSesión;
@@ -337,7 +306,6 @@
         private System.Windows.Forms.PictureBox picbInicio;
         private System.Windows.Forms.PictureBox pcbPacientes;
         private System.Windows.Forms.PictureBox pcbOdontólogos;
-        private System.Windows.Forms.PictureBox pcbServicios;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pcbHorarios;

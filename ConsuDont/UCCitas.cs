@@ -16,5 +16,15 @@ namespace ConsuDont
         {
             InitializeComponent();
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void UCCitas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

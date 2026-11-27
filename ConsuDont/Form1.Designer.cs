@@ -33,12 +33,14 @@
             this.timerpgBar = new System.Windows.Forms.Timer(this.components);
             this.pcbSplash = new System.Windows.Forms.PictureBox();
             this.lblPorciento = new System.Windows.Forms.Label();
+            this.pgb = new BarraProgresoColor();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSplash)).BeginInit();
             this.SuspendLayout();
             // 
             // timerpgBar
             // 
             this.timerpgBar.Enabled = true;
+            this.timerpgBar.Tick += new System.EventHandler(this.timerpgBar_Tick);
             // 
             // pcbSplash
             // 
@@ -63,12 +65,25 @@
             this.lblPorciento.TabIndex = 5;
             this.lblPorciento.Text = "label1";
             // 
+            // pgb
+            // 
+            this.pgb.BarColor = System.Drawing.Color.SteelBlue;
+            this.pgb.BorderColor = System.Drawing.Color.Silver;
+            this.pgb.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pgb.Location = new System.Drawing.Point(0, 740);
+            this.pgb.Name = "pgb";
+            this.pgb.Size = new System.Drawing.Size(1278, 24);
+            this.pgb.TabIndex = 7;
+            this.pgb.Text = "barraProgresoColor1";
+            this.pgb.TrackColor = System.Drawing.Color.Gainsboro;
+            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ConsuDont.Properties.Resources.Splashimage;
             this.ClientSize = new System.Drawing.Size(1278, 764);
+            this.Controls.Add(this.pgb);
             this.Controls.Add(this.lblPorciento);
             this.Controls.Add(this.pcbSplash);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -76,7 +91,6 @@
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbSplash)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -87,6 +101,7 @@
         private System.Windows.Forms.Timer timerpgBar;
         private System.Windows.Forms.PictureBox pcbSplash;
         private System.Windows.Forms.Label lblPorciento;
+        private BarraProgresoColor pgb;
     }
 }
 

@@ -166,6 +166,7 @@ namespace ConsuDont
             CrearUsuariosIniciales();
         }
 
+
         private void CrearUsuariosIniciales()
         {
             try
@@ -174,18 +175,39 @@ namespace ConsuDont
                 {
                     conn.Open();
 
-                    using (SqlCommand contar = new SqlCommand("SELECT COUNT(*) FROM Usuarios", conn))
+                    // Comprobar si existe el administrador
+                    using (SqlCommand cmd = new SqlCommand(
+                        "SELECT COUNT(*) FROM Usuarios WHERE Correo = @Correo", conn))
                     {
-                        if ((int)contar.ExecuteScalar() > 0) return;
+                        cmd.Parameters.Add("@Correo", SqlDbType.VarChar, 100)
+                            .Value = "admin@consudont.com";
+
+                        if ((int)cmd.ExecuteScalar() == 0)
+                        {
+                            InsertarUsuario(conn, "Admin", "Sistema",
+                                "admin@consudont.com", "Admin123!", 1);
+                        }
                     }
 
-                    InsertarUsuario(conn, "Admin", "Sistema", "admin@consudont.com", "Admin123!", 1);
-                    InsertarUsuario(conn, "Laura", "Gómez", "secretaria@consudont.com", "Secre123!", 2);
+                    // Comprobar si existe la secretaria
+                    using (SqlCommand cmd = new SqlCommand(
+                        "SELECT COUNT(*) FROM Usuarios WHERE Correo = @Correo", conn))
+                    {
+                        cmd.Parameters.Add("@Correo", SqlDbType.VarChar, 100)
+                            .Value = "secretaria@consudont.com";
+
+                        if ((int)cmd.ExecuteScalar() == 0)
+                        {
+                            InsertarUsuario(conn, "Laura", "Gómez",
+                                "secretaria@consudont.com", "Secre123!", 2);
+                        }
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No se pudo preparar la base de datos: " + ex.Message);
+                MessageBox.Show(
+                    "No se pudieron preparar los usuarios iniciales: " + ex.Message);
             }
         }
 

@@ -30,12 +30,18 @@
         {
             this.sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblMesAnio = new System.Windows.Forms.Label();
+            this.btnMesSiguiente = new System.Windows.Forms.Button();
+            this.btnMesAnterior = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -53,25 +59,35 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.pnlCalendario = new System.Windows.Forms.Panel();
+            this.tlpDiasCalendario = new System.Windows.Forms.TableLayoutPanel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lblSabado = new System.Windows.Forms.Label();
+            this.lblDomingo = new System.Windows.Forms.Label();
+            this.lblViernes = new System.Windows.Forms.Label();
+            this.lblJueves = new System.Windows.Forms.Label();
+            this.lblMiercoles = new System.Windows.Forms.Label();
+            this.lblMartes = new System.Windows.Forms.Label();
+            this.lblLunes = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlCalendario.SuspendLayout();
             this.SuspendLayout();
             // 
             // sqlCommand1
@@ -95,6 +111,76 @@
             this.panel3.Size = new System.Drawing.Size(490, 226);
             this.panel3.TabIndex = 2;
             // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button9.Location = new System.Drawing.Point(327, 156);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(156, 47);
+            this.button9.TabIndex = 43;
+            this.button9.Text = "04:00 PM";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button10.Location = new System.Drawing.Point(327, 88);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(156, 47);
+            this.button10.TabIndex = 42;
+            this.button10.Text = "11:00 AM";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button7.Location = new System.Drawing.Point(165, 156);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(156, 47);
+            this.button7.TabIndex = 41;
+            this.button7.Text = "03:00 PM";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button8.Location = new System.Drawing.Point(165, 88);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(156, 47);
+            this.button8.TabIndex = 40;
+            this.button8.Text = "10:00 AM";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button6.Location = new System.Drawing.Point(3, 156);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(156, 47);
+            this.button6.TabIndex = 39;
+            this.button6.Text = "02:00 PM";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
+            this.button3.Location = new System.Drawing.Point(3, 88);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(156, 47);
+            this.button3.TabIndex = 38;
+            this.button3.Text = "09:00 AM";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::ConsuDont.Properties.Resources.clock_regular;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(15, 10);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(52, 44);
+            this.pictureBox3.TabIndex = 37;
+            this.pictureBox3.TabStop = false;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -109,52 +195,52 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.lblSabado);
+            this.panel4.Controls.Add(this.lblDomingo);
+            this.panel4.Controls.Add(this.lblViernes);
+            this.panel4.Controls.Add(this.lblJueves);
+            this.panel4.Controls.Add(this.lblMiercoles);
+            this.panel4.Controls.Add(this.lblMartes);
+            this.panel4.Controls.Add(this.lblLunes);
+            this.panel4.Controls.Add(this.lblMesAnio);
+            this.panel4.Controls.Add(this.btnMesSiguiente);
+            this.panel4.Controls.Add(this.btnMesAnterior);
+            this.panel4.Controls.Add(this.pnlCalendario);
             this.panel4.Location = new System.Drawing.Point(17, 36);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(490, 437);
             this.panel4.TabIndex = 20;
             // 
-            // panel5
+            // lblMesAnio
             // 
-            this.panel5.Location = new System.Drawing.Point(15, 76);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(457, 352);
-            this.panel5.TabIndex = 0;
+            this.lblMesAnio.AutoSize = true;
+            this.lblMesAnio.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lblMesAnio.Location = new System.Drawing.Point(201, 21);
+            this.lblMesAnio.Name = "lblMesAnio";
+            this.lblMesAnio.Size = new System.Drawing.Size(95, 26);
+            this.lblMesAnio.TabIndex = 3;
+            this.lblMesAnio.Text = "Mes/año";
+            this.lblMesAnio.Click += new System.EventHandler(this.label3_Click);
             // 
-            // button4
+            // btnMesSiguiente
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(15, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 59);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "<";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnMesSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMesSiguiente.Location = new System.Drawing.Point(354, 3);
+            this.btnMesSiguiente.Name = "btnMesSiguiente";
+            this.btnMesSiguiente.Size = new System.Drawing.Size(118, 59);
+            this.btnMesSiguiente.TabIndex = 2;
+            this.btnMesSiguiente.Text = ">";
+            this.btnMesSiguiente.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnMesAnterior
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(354, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 59);
-            this.button5.TabIndex = 2;
-            this.button5.Text = ">";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label3.Location = new System.Drawing.Point(201, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 26);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Mes/año";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.btnMesAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMesAnterior.Location = new System.Drawing.Point(15, 3);
+            this.btnMesAnterior.Name = "btnMesAnterior";
+            this.btnMesAnterior.Size = new System.Drawing.Size(121, 59);
+            this.btnMesAnterior.TabIndex = 1;
+            this.btnMesAnterior.Text = "<";
+            this.btnMesAnterior.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -183,6 +269,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(38)))), ((int)(((byte)(227)))));
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(221, 649);
             this.button2.Name = "button2";
@@ -299,6 +386,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(27, 649);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 61);
@@ -343,6 +431,26 @@
             this.panel2.TabIndex = 7;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::ConsuDont.Properties.Resources.calendar_plus_regular;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(51, 22);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(65, 61);
+            this.pictureBox2.TabIndex = 36;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(50, 112);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(79, 24);
+            this.label12.TabIndex = 33;
+            this.label12.Text = "Nombre";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -365,16 +473,6 @@
             this.label11.TabIndex = 34;
             this.label11.Text = "Gestiona las citas de los pacientes";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(50, 112);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(79, 24);
-            this.label12.TabIndex = 33;
-            this.label12.Text = "Nombre";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::ConsuDont.Properties.Resources.stethoscope_solid;
@@ -385,85 +483,184 @@
             this.pictureBox1.TabIndex = 35;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // pnlCalendario
             // 
-            this.pictureBox2.BackgroundImage = global::ConsuDont.Properties.Resources.calendar_plus_regular;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(51, 22);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 61);
-            this.pictureBox2.TabIndex = 36;
-            this.pictureBox2.TabStop = false;
+            this.pnlCalendario.Controls.Add(this.label19);
+            this.pnlCalendario.Controls.Add(this.tlpDiasCalendario);
+            this.pnlCalendario.Controls.Add(this.label18);
+            this.pnlCalendario.Controls.Add(this.label16);
+            this.pnlCalendario.Controls.Add(this.label17);
+            this.pnlCalendario.Controls.Add(this.label13);
+            this.pnlCalendario.Controls.Add(this.label14);
+            this.pnlCalendario.Controls.Add(this.label15);
+            this.pnlCalendario.Location = new System.Drawing.Point(0, 122);
+            this.pnlCalendario.Name = "pnlCalendario";
+            this.pnlCalendario.Size = new System.Drawing.Size(490, 312);
+            this.pnlCalendario.TabIndex = 0;
             // 
-            // pictureBox3
+            // tlpDiasCalendario
             // 
-            this.pictureBox3.BackgroundImage = global::ConsuDont.Properties.Resources.clock_regular;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 44);
-            this.pictureBox3.TabIndex = 37;
-            this.pictureBox3.TabStop = false;
+            this.tlpDiasCalendario.ColumnCount = 7;
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tlpDiasCalendario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlpDiasCalendario.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+            this.tlpDiasCalendario.Location = new System.Drawing.Point(0, 0);
+            this.tlpDiasCalendario.Name = "tlpDiasCalendario";
+            this.tlpDiasCalendario.RowCount = 6;
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tlpDiasCalendario.Size = new System.Drawing.Size(490, 312);
+            this.tlpDiasCalendario.TabIndex = 7;
             // 
-            // button3
+            // label19
             // 
-            this.button3.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(3, 88);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(156, 47);
-            this.button3.TabIndex = 38;
-            this.button3.Text = "09:00 AM";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Arial", 13F);
+            this.label19.Location = new System.Drawing.Point(358, -24);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(42, 21);
+            this.label19.TabIndex = 13;
+            this.label19.Text = "Sab";
             // 
-            // button6
+            // label18
             // 
-            this.button6.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button6.Location = new System.Drawing.Point(3, 156);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(156, 47);
-            this.button6.TabIndex = 39;
-            this.button6.Text = "02:00 PM";
-            this.button6.UseVisualStyleBackColor = true;
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 13F);
+            this.label18.Location = new System.Drawing.Point(429, -24);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(47, 21);
+            this.label18.TabIndex = 12;
+            this.label18.Text = "Dom";
             // 
-            // button7
+            // label17
             // 
-            this.button7.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button7.Location = new System.Drawing.Point(165, 156);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(156, 47);
-            this.button7.TabIndex = 41;
-            this.button7.Text = "03:00 PM";
-            this.button7.UseVisualStyleBackColor = true;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 13F);
+            this.label17.Location = new System.Drawing.Point(297, -24);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(35, 21);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Vie";
             // 
-            // button8
+            // label16
             // 
-            this.button8.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button8.Location = new System.Drawing.Point(165, 88);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(156, 47);
-            this.button8.TabIndex = 40;
-            this.button8.Text = "10:00 AM";
-            this.button8.UseVisualStyleBackColor = true;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 13F);
+            this.label16.Location = new System.Drawing.Point(216, -24);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(39, 21);
+            this.label16.TabIndex = 10;
+            this.label16.Text = "Jue";
             // 
-            // button9
+            // label15
             // 
-            this.button9.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button9.Location = new System.Drawing.Point(327, 156);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(156, 47);
-            this.button9.TabIndex = 43;
-            this.button9.Text = "04:00 PM";
-            this.button9.UseVisualStyleBackColor = true;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Arial", 13F);
+            this.label15.Location = new System.Drawing.Point(145, -24);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(39, 21);
+            this.label15.TabIndex = 9;
+            this.label15.Text = "Mié";
             // 
-            // button10
+            // label14
             // 
-            this.button10.Font = new System.Drawing.Font("Arial Narrow", 13F, System.Drawing.FontStyle.Bold);
-            this.button10.Location = new System.Drawing.Point(327, 88);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(156, 47);
-            this.button10.TabIndex = 42;
-            this.button10.Text = "11:00 AM";
-            this.button10.UseVisualStyleBackColor = true;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 13F);
+            this.label14.Location = new System.Drawing.Point(72, -24);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 21);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Mar";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial", 13F);
+            this.label13.Location = new System.Drawing.Point(9, -24);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(40, 21);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "Lun";
+            // 
+            // lblSabado
+            // 
+            this.lblSabado.AutoSize = true;
+            this.lblSabado.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblSabado.Location = new System.Drawing.Point(363, 80);
+            this.lblSabado.Name = "lblSabado";
+            this.lblSabado.Size = new System.Drawing.Size(42, 21);
+            this.lblSabado.TabIndex = 14;
+            this.lblSabado.Text = "Sab";
+            // 
+            // lblDomingo
+            // 
+            this.lblDomingo.AutoSize = true;
+            this.lblDomingo.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblDomingo.Location = new System.Drawing.Point(436, 80);
+            this.lblDomingo.Name = "lblDomingo";
+            this.lblDomingo.Size = new System.Drawing.Size(47, 21);
+            this.lblDomingo.TabIndex = 13;
+            this.lblDomingo.Text = "Dom";
+            // 
+            // lblViernes
+            // 
+            this.lblViernes.AutoSize = true;
+            this.lblViernes.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblViernes.Location = new System.Drawing.Point(286, 80);
+            this.lblViernes.Name = "lblViernes";
+            this.lblViernes.Size = new System.Drawing.Size(35, 21);
+            this.lblViernes.TabIndex = 12;
+            this.lblViernes.Text = "Vie";
+            // 
+            // lblJueves
+            // 
+            this.lblJueves.AutoSize = true;
+            this.lblJueves.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblJueves.Location = new System.Drawing.Point(223, 80);
+            this.lblJueves.Name = "lblJueves";
+            this.lblJueves.Size = new System.Drawing.Size(39, 21);
+            this.lblJueves.TabIndex = 11;
+            this.lblJueves.Text = "Jue";
+            // 
+            // lblMiercoles
+            // 
+            this.lblMiercoles.AutoSize = true;
+            this.lblMiercoles.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblMiercoles.Location = new System.Drawing.Point(150, 80);
+            this.lblMiercoles.Name = "lblMiercoles";
+            this.lblMiercoles.Size = new System.Drawing.Size(39, 21);
+            this.lblMiercoles.TabIndex = 10;
+            this.lblMiercoles.Text = "Mié";
+            // 
+            // lblMartes
+            // 
+            this.lblMartes.AutoSize = true;
+            this.lblMartes.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblMartes.Location = new System.Drawing.Point(75, 80);
+            this.lblMartes.Name = "lblMartes";
+            this.lblMartes.Size = new System.Drawing.Size(41, 21);
+            this.lblMartes.TabIndex = 9;
+            this.lblMartes.Text = "Mar";
+            // 
+            // lblLunes
+            // 
+            this.lblLunes.AutoSize = true;
+            this.lblLunes.Font = new System.Drawing.Font("Arial", 13F);
+            this.lblLunes.Location = new System.Drawing.Point(14, 80);
+            this.lblLunes.Name = "lblLunes";
+            this.lblLunes.Size = new System.Drawing.Size(40, 21);
+            this.lblLunes.TabIndex = 8;
+            this.lblLunes.Text = "Lun";
             // 
             // UCCitas
             // 
@@ -482,14 +679,16 @@
             this.Load += new System.EventHandler(this.UCCitas_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlCalendario.ResumeLayout(false);
+            this.pnlCalendario.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -500,10 +699,9 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label lblMesAnio;
+        private System.Windows.Forms.Button btnMesSiguiente;
+        private System.Windows.Forms.Button btnMesAnterior;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
@@ -533,5 +731,21 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Panel pnlCalendario;
+        private System.Windows.Forms.TableLayoutPanel tlpDiasCalendario;
+        private System.Windows.Forms.Label lblSabado;
+        private System.Windows.Forms.Label lblDomingo;
+        private System.Windows.Forms.Label lblViernes;
+        private System.Windows.Forms.Label lblJueves;
+        private System.Windows.Forms.Label lblMiercoles;
+        private System.Windows.Forms.Label lblMartes;
+        private System.Windows.Forms.Label lblLunes;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }

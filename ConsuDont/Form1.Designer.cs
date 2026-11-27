@@ -33,14 +33,12 @@
             this.timerpgBar = new System.Windows.Forms.Timer(this.components);
             this.pcbSplash = new System.Windows.Forms.PictureBox();
             this.lblPorciento = new System.Windows.Forms.Label();
-            this.pgBar = new ModernProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSplash)).BeginInit();
             this.SuspendLayout();
             // 
             // timerpgBar
             // 
             this.timerpgBar.Enabled = true;
-            this.timerpgBar.Tick += new System.EventHandler(this.timerpgBar_Tick);
             // 
             // pcbSplash
             // 
@@ -65,19 +63,6 @@
             this.lblPorciento.TabIndex = 5;
             this.lblPorciento.Text = "label1";
             // 
-            // pgBar
-            // 
-            this.pgBar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
-            this.pgBar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pgBar.FillColor = System.Drawing.Color.SteelBlue;
-            this.pgBar.ForeColor = System.Drawing.Color.White;
-            this.pgBar.Location = new System.Drawing.Point(0, 741);
-            this.pgBar.Name = "pgBar";
-            this.pgBar.Size = new System.Drawing.Size(1278, 23);
-            this.pgBar.TabIndex = 3;
-            this.pgBar.TrackColor = System.Drawing.Color.Transparent;
-            this.pgBar.Click += new System.EventHandler(this.Form1_Load);
-            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -86,7 +71,6 @@
             this.ClientSize = new System.Drawing.Size(1278, 764);
             this.Controls.Add(this.lblPorciento);
             this.Controls.Add(this.pcbSplash);
-            this.Controls.Add(this.pgBar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Splash";
@@ -101,7 +85,6 @@
 
         #endregion
         private System.Windows.Forms.Timer timerpgBar;
-        private ModernProgressBar pgBar;
         private System.Windows.Forms.PictureBox pcbSplash;
         private System.Windows.Forms.Label lblPorciento;
     }

@@ -63,9 +63,29 @@ namespace ConsuDont.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendar_plus_regular {
+            get {
+                object obj = ResourceManager.GetObject("calendar-plus-regular", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cc5936abd8464bae801d6677b270c35f_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("cc5936abd8464bae801d6677b270c35f-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap clock_regular {
+            get {
+                object obj = ResourceManager.GetObject("clock-regular", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,16 @@ namespace ConsuDont.Properties {
         internal static System.Drawing.Bitmap Splashimage {
             get {
                 object obj = ResourceManager.GetObject("Splashimage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stethoscope_solid {
+            get {
+                object obj = ResourceManager.GetObject("stethoscope-solid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

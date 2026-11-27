@@ -335,6 +335,15 @@
   <ItemGroup>
     <None Include="Resources\logout-exit.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stethoscope-solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-plus-regular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-regular.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.7.1.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.7.1.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -78,7 +78,7 @@
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(259, 844);
+            this.pnlMenu.Size = new System.Drawing.Size(259, 832);
             this.pnlMenu.TabIndex = 0;
             // 
             // pictureBox3
@@ -94,7 +94,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ConsuDont.Properties.Resources.reportes;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 614);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 595);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -104,7 +104,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ConsuDont.Properties.Resources.logout_exit;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 789);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 729);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(39, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -114,7 +114,7 @@
             // pcbHorarios
             // 
             this.pcbHorarios.Image = global::ConsuDont.Properties.Resources.horario;
-            this.pcbHorarios.Location = new System.Drawing.Point(12, 534);
+            this.pcbHorarios.Location = new System.Drawing.Point(12, 512);
             this.pcbHorarios.Name = "pcbHorarios";
             this.pcbHorarios.Size = new System.Drawing.Size(49, 43);
             this.pcbHorarios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -157,7 +157,7 @@
             this.btnSesión.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSesión.Font = new System.Drawing.Font("Malgun Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesión.ForeColor = System.Drawing.Color.LightCoral;
-            this.btnSesión.Location = new System.Drawing.Point(6, 779);
+            this.btnSesión.Location = new System.Drawing.Point(6, 719);
             this.btnSesión.Name = "btnSesión";
             this.btnSesión.Size = new System.Drawing.Size(247, 62);
             this.btnSesión.TabIndex = 9;
@@ -262,7 +262,7 @@
             this.pnlContenido.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenido.Location = new System.Drawing.Point(259, 0);
             this.pnlContenido.Name = "pnlContenido";
-            this.pnlContenido.Size = new System.Drawing.Size(1019, 844);
+            this.pnlContenido.Size = new System.Drawing.Size(1019, 832);
             this.pnlContenido.TabIndex = 1;
             // 
             // FrmAdmin
@@ -270,7 +270,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1278, 844);
+            this.ClientSize = new System.Drawing.Size(1278, 832);
             this.Controls.Add(this.pnlContenido);
             this.Controls.Add(this.pnlMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

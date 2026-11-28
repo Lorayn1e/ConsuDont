@@ -159,6 +159,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Conexion.cs" />
+    <Compile Include="Estilo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

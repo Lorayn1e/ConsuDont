@@ -40,18 +40,16 @@
             this.lblFecha.AutoSize = true;
             this.lblFecha.Location = new System.Drawing.Point(760, 20);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(51, 20);
+            this.lblFecha.Size = new System.Drawing.Size(0, 20);
             this.lblFecha.TabIndex = 3;
-            this.lblFecha.Text = "label2";
             // 
             // lblHora
             // 
             this.lblHora.AutoSize = true;
             this.lblHora.Location = new System.Drawing.Point(875, 0);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(51, 20);
+            this.lblHora.Size = new System.Drawing.Size(0, 20);
             this.lblHora.TabIndex = 2;
-            this.lblHora.Text = "label1";
             // 
             // HoraFecha
             // 
